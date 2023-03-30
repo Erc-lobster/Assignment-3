@@ -1,0 +1,110 @@
+html{scroll-behavior: smooth;}
+body{margin: 0px;}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+    color: #fdfaf2;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+body {
+    background: radial-gradient(circle, #eeb648, #d17012);
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: large;
+}
+.general-info{
+    text-align: center;
+}
+.top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #050505;
+    height: 50px;
+    padding: 0 20px;
+}
+.top-bar img{
+    display: flex;
+    justify-content: left;
+    width: 99px;
+    margin-right: 10px;
+}
+.top-bar h1{
+    margin: 0;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+.image-wrapper{
+    text-align: center;
+    margin: 0 20px;
+}
+.image-wrapper img{
+    height: 350px;
+    width: 200px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nutrtion-facts{
+    flex: 1;
+    text-align: center;
+}
+.image{
+    flex: 1;
+    text-align: center;
+}
+footer{
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    max-height: 80px;
+}
+.company-info{
+    flex-basis: 40%;
+}
+.contact-form{
+    flex-basis: 40%;
+}
+.contact-form h3{
+    margin-top: 0;
+}
+form label{
+    display: block;
+    margin-bottom: 5px;
+}
+form input, form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+}
+form button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+  
